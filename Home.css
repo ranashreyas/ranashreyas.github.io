@@ -210,6 +210,7 @@
 .u-section-2 .u-image-2 {
   width: 538px;
   height: 493px;
+  box-shadow: 0 0 8px 0 rgba(128,128,128,1);
   margin: -97px auto 0 181px;
 }
 
@@ -582,8 +583,8 @@
 }
 
 .u-section-4 .u-gallery-inner-1 {
-  grid-template-columns: repeat(3, auto);
-  grid-gap: 16px;
+  grid-template-columns: auto auto auto;
+  grid-gap: 24px 24px;
 }
 
 .u-section-4 .u-over-slide-1 {
@@ -655,6 +656,10 @@
     height: 609px;
     margin-top: -773px;
     margin-left: 0;
+  }
+
+  .u-section-4 .u-gallery-inner-1 {
+    grid-template-columns: repeat(3, auto);
   }
 
   .u-section-4 .u-group-1 {
