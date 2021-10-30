@@ -216,7 +216,7 @@
 
 .u-section-2 .u-group-1 {
   width: 527px;
-  min-height: 518px;
+  min-height: 599px;
   margin: -685px 0 0 auto;
 }
 
@@ -232,6 +232,14 @@
 .u-section-2 .u-text-2 {
   font-size: 1.5rem;
   margin: 30px 16px 0 0;
+}
+
+.u-section-2 .u-btn-1 {
+  font-size: 1.5rem;
+  border-style: none;
+  font-weight: 700;
+  margin: 30px auto 0;
+  padding: 8px 10px;
 }
 
 @media (max-width: 1199px) {
@@ -916,8 +924,8 @@
 
 .u-section-5 .u-shape-1 {
   height: 1082px;
-  width: 359px;
-  margin: 28px auto 0 343px;
+  width: 402px;
+  margin: 28px auto 0 322px;
 }
 
 .u-section-5 .u-image-1 {
